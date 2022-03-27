@@ -11,6 +11,7 @@
   inputs.src-emerald-v0_2_2.ref   = "refs/tags/v0.2.2";
   inputs.src-emerald-v0_2_2.owner = "flyx";
   inputs.src-emerald-v0_2_2.repo  = "emerald";
+  inputs.src-emerald-v0_2_2.dir   = "";
   inputs.src-emerald-v0_2_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
