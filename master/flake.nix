@@ -11,7 +11,6 @@
   inputs.src-emerald-master.ref   = "refs/heads/master";
   inputs.src-emerald-master.owner = "flyx";
   inputs.src-emerald-master.repo  = "emerald";
-  inputs.src-emerald-master.dir   = "";
   inputs.src-emerald-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
