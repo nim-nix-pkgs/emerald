@@ -1,0 +1,7 @@
+*
+!/**/
+!*.*
+tests/.nimcache
+doc/generate
+doc/site
+compile_*.sh
